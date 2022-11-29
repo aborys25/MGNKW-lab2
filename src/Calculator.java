@@ -30,7 +30,7 @@ public class Calculator extends CalculatorBaseListener {
         thirdStack.push(result);
         System.out.println("Expression: \"" + ctx.getText() + "\" -> " + result);
     }
-
+//test
     @Override
     public void exitMultiplyingExpression(CalculatorParser.MultiplyingExpressionContext ctx) {
         Double result = secondStack.removeLast();
